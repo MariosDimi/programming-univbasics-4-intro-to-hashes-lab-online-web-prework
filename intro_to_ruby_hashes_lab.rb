@@ -38,7 +38,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  # given a hash an a key as parameters, return an updated hash
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
-  # if the provided key is present, increment its value by 1
+  order_of_phones = {
+    :iPhones 10s => 3,
+    :iPhone 11pro => 5,
+}
+  order_of_phones["iPhone 11pro"] += 1
 end
